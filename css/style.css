@@ -1,19 +1,17 @@
 body {
     font-family: 'Anton', sans-serif;
     font-family: 'Merriweather Sans', sans-serif;
-    background-color: #FA9CD5;
+    backgrrtund-color: #FA9CD5;
     color: #86F7F2;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h5,
-h6 {
+h1, h2, h3, h4, h5, h5, h6 {
     font-family: 'Montserrat Alternates', sans-serif;
-    font-size: 50pt;
+    text-align:center;
+}
+
+h1 {
+    font-size: 40pt;
 }
 
 header {
@@ -21,7 +19,8 @@ header {
     text-align: center;
 }
 
-#hero, footer {
+#hero,
+footer {
     color: #B4B1E0;
     background-color: #C0FAA7;
     text-align: center;
@@ -30,4 +29,8 @@ header {
 
 #bio {
     text-align: center;
+}
+
+#hobbies ul li:nth-child(even) {
+    color: #010101
 }
