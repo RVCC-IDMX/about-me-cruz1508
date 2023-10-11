@@ -45,6 +45,7 @@ footer {
 
 #gallery {
 border: 2px solid #C0FAA7;
+margin-bottom:2rem;
 }
 
 #gallery img { 
@@ -53,6 +54,34 @@ border: 2px solid #C0FAA7;
 
 #gallery figure {
     text-align:center;
+
+
+}
+
+/* Literature */
+#lit {
+    border: 2px solid #C0FAA7;
+    margin-bottom:2rem;
+}
+
+#lit div {
+    padding:2rem;
+    max-width: 40rem;
+    margin: 0 auto;
+    clear:both;
+
+}
+
+/* DropCaps */
+
+#lit div p:first-letter {
+    color:#C0FAA7;
+    float:left;
+    font-size:3em;
+    padding:.25em;
+    line-height:.65;
+    border: 2.5em;px solid black;
+
 
 
 }
