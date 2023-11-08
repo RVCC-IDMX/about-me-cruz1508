@@ -14,6 +14,11 @@ h1 {
     font-size: 40pt;
 }
 
+h2 {
+    margin: .1em;
+
+}
+
 header {
 
     text-align: center;
@@ -29,6 +34,10 @@ footer {
     padding: 10px;
 }
 
+#hero img {
+    max-width:100%;
+}
+
 /* Bio Section */
 
 #bio {
@@ -37,10 +46,22 @@ footer {
 
 /* Hobbie Section */
 
-#hobbies ul li:nth-child(even) {
-    color: #010101
+#hobbies{
+    display:flex;
+    flex-direction: column; 
+    align-items: center;
 }
 
+#hobbies ul li:nth-child(even) {
+    color: #010101;
+    
+}
+#hobbies ul {
+
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+}
 /* Gallery Section */
 
 #gallery {
@@ -83,5 +104,21 @@ margin-bottom:2rem;
     border: 2.5em;px solid black;
 
 
+
+}
+
+@media screen and (min-width: 60em) {
+    figure {
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+}
+
+figcaption {
+display: flex;
+justify-content: center;
+align-items: center;
+font-size: 1.6rem;
+margin-left: 1rem;
+}
 
 }
