@@ -124,7 +124,7 @@ footer {
     padding: .25em;
     line-height: .65;
     border: 2.5em;
-    px solid black;
+   
 
 
 
@@ -182,3 +182,10 @@ footer {
 
 }
 
+/* Contact Form */
+
+#formElements {
+    display:grid;
+
+
+}
