@@ -1,3 +1,3 @@
 # README
 
-Carlos Cruz
+Carlos Cruz Jr.
