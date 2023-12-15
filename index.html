@@ -1,51 +1,72 @@
 <!DOCTYPE html>
 <html lang="en">
+    
 
 <head>
+    
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About Me</title>
+    <div> 
+        <title> about me </title> 
+    </div>
+    <nav class="nav">
+        
+        <input type="checkbox" id="nav__checkbox" class="nav__checkbox">
+        <h1> About Me </h1>
+        <label for="nav__checkbox" class="nav__toggle">
+            
+          <svg class="menu" viewBox="0 0 448 512" width="96" title="bars">
+            
+            <path d="M16 132h416c8.837 0 16-7.163 16-16V76c0-8.837-7.163-16-16-16H16C7.163 60 0 67.163 0 76v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16z" />
+          </svg>
+          
+          <svg class="close" viewBox="0 0 384 512" width="100" title="times">
+            <path d="M242.72 256l100.07-100.07c12.28-12.28 12.28-32.19 0-44.48l-22.24-22.24c-12.28-12.28-32.19-12.28-44.48 0L176 189.28 75.93 89.21c-12.28-12.28-32.19-12.28-44.48 0L9.21 111.45c-12.28 12.28-12.28 32.19 0 44.48L109.28 256 9.21 356.07c-12.28 12.28-12.28 32.19 0 44.48l22.24 22.24c12.28 12.28 32.2 12.28 44.48 0L176 322.72l100.07 100.07c12.28 12.28 32.2 12.28 44.48 0l22.24-22.24c12.28-12.28 12.28-32.19 0-44.48L242.72 256z" />
+          </svg>
+        </label>
+        <ul class="nav__menu">
+            
+          <li><a href="#">
+            
+            <svg width="96" height="96" viewBox="0 0 482 414" fill="none" xmlns="http://www.w3.org/2000/svg">
+                
+                <path d="M83.3 355.6C56.9333 355.6 37.5667 348.95 25.2 335.65C12.8333 322.35 6.65 300.3 6.65 269.5C6.65 245 10.7333 218.633 18.9 190.4C27.3 162.167 40.6 138.017 58.8 117.95C77.2333 97.65 100.567 87.5 128.8 87.5C146.3 87.5 160.417 91.35 171.15 99.05C181.883 106.75 187.25 118.533 187.25 134.4C187.25 144.433 185.267 152.367 181.3 158.2C177.333 163.8 171.15 166.6 162.75 166.6C154.35 166.6 147.7 163.567 142.8 157.5C147 155.4 150.733 151.2 154 144.9C157.267 138.6 158.9 132.067 158.9 125.3C158.9 119 157.15 113.867 153.65 109.9C150.383 105.933 145.017 103.95 137.55 103.95C125.183 103.95 113.4 112.467 102.2 129.5C91 146.3 81.9 167.533 74.9 193.2C68.1333 218.867 64.75 243.6 64.75 267.4C64.75 285.133 67.7833 298.667 73.85 308C79.9167 317.333 90.8833 322 106.75 322C120.517 322 133.233 318.967 144.9 312.9C156.567 306.833 166.6 298.2 175 287L183.05 290.5C177.217 305.2 168.583 317.45 157.15 327.25C145.717 337.05 133.467 344.283 120.4 348.95C107.333 353.383 94.9667 355.6 83.3 355.6Z" fill="#C0FAA7"/>
+                
+                <path d="M377.238 362.6C350.871 362.6 331.505 355.95 319.138 342.65C306.771 329.35 300.588 307.3 300.588 276.5C300.588 252 304.671 225.633 312.838 197.4C321.238 169.167 334.538 145.017 352.738 124.95C371.171 104.65 394.505 94.5 422.738 94.5C440.238 94.5 454.355 98.35 465.088 106.05C475.821 113.75 481.188 125.533 481.188 141.4C481.188 151.433 479.205 159.367 475.238 165.2C471.271 170.8 465.088 173.6 456.688 173.6C448.288 173.6 441.638 170.567 436.738 164.5C440.938 162.4 444.671 158.2 447.938 151.9C451.205 145.6 452.838 139.067 452.838 132.3C452.838 126 451.088 120.867 447.588 116.9C444.321 112.933 438.955 110.95 431.488 110.95C419.121 110.95 407.338 119.467 396.138 136.5C384.938 153.3 375.838 174.533 368.838 200.2C362.071 225.867 358.688 250.6 358.688 274.4C358.688 292.133 361.721 305.667 367.788 315C373.855 324.333 384.821 329 400.688 329C414.455 329 427.171 325.967 438.838 319.9C450.505 313.833 460.538 305.2 468.938 294L476.988 297.5C471.155 312.2 462.521 324.45 451.088 334.25C439.655 344.05 427.405 351.283 414.338 355.95C401.271 360.383 388.905 362.6 377.238 362.6Z" fill="#C0FAA7"/>
+                <path d="M222.846 404.6C196.48 404.6 177.113 397.95 164.746 384.65C152.38 371.35 146.196 349.3 146.196 318.5C146.196 294 150.28 267.633 158.446 239.4C166.846 211.167 180.146 187.017 198.346 166.95C216.78 146.65 240.113 136.5 268.346 136.5C285.846 136.5 299.963 140.35 310.696 148.05C321.43 155.75 326.796 167.533 326.796 183.4C326.796 193.433 324.813 201.367 320.846 207.2C316.88 212.8 310.696 215.6 302.296 215.6C293.896 215.6 287.246 212.567 282.346 206.5C286.546 204.4 290.28 200.2 293.546 193.9C296.813 187.6 298.446 181.067 298.446 174.3C298.446 168 296.696 162.867 293.196 158.9C289.93 154.933 284.563 152.95 277.096 152.95C264.73 152.95 252.946 161.467 241.746 178.5C230.546 195.3 221.446 216.533 214.446 242.2C207.68 267.867 204.296 292.6 204.296 316.4C204.296 334.133 207.33 347.667 213.396 357C219.463 366.333 230.43 371 246.296 371C260.063 371 272.78 367.967 284.446 361.9C296.113 355.833 306.146 347.2 314.546 336L322.596 339.5C316.763 354.2 308.13 366.45 296.696 376.25C285.263 386.05 273.013 393.283 259.946 397.95C246.88 402.383 234.513 404.6 222.846 404.6Z" fill="#C0FAA7"/>
+                </svg>
+                
+            </a></li>
+          <li><a href="#bio">Bio</a></li>
+          <li><a href="#gallery">Gallery</a></li>
+          <li><a href="#lit">Blog</a></li>
+          <li><a href="#contact">Contact Us</a></li>
+        </ul>
+      </nav>
+    
+           
+            <link rel="preconnect" href="https://fonts.googleapis.com">
+            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+            <link
+                href="https://fonts.googleapis.com/css2?family=Anton&family=Merriweather+Sans:ital,wght@0,600;1,400;1,700&display=swap"
+                rel="stylesheet">
+            <link rel="preconnect" href="https://fonts.googleapis.com">
+            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+            <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@400;600;700&display=swap"
+                rel="stylesheet">
+    
+            <link rel="stylesheet" href="css/style.css">
+            <link rel="stylesheet" href="css/nav.css">
 </head>
 
 <body>
 
-    <header>
-        <!-- The Header shows the logo and the page's title-->
 
-        <nav class="navbar">
-            <div class="logo">
-                <img src="img/logo-96X96.svg" alt="Extra ahhh bird">
-
-                <h1>About Me</h1>
-            </div>
-            <div class="navbar-links">
-                <ul>
-                    <li> <a href="#bio">Bio</a></li>
-                    <li> <a href="#gallery">Gallery</a></li>
-                    <li> <a href="#lit">Blog</a></li>
-                    <li> <a href="#contact">Contact Me</a></li>
-                    
-                </ul>
-            </div>
-        </nav>
-
-       
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link
-            href="https://fonts.googleapis.com/css2?family=Anton&family=Merriweather+Sans:ital,wght@0,600;1,400;1,700&display=swap"
-            rel="stylesheet">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@400;600;700&display=swap"
-            rel="stylesheet">
-
-        <link rel="stylesheet" href="css/style.css">
-        <link rel="stylesheet" href="css/nav.css">
-
-
-    </header>
-
+    
+    
+    
+    
+    
     <main>
         <!-- is where the main information of the website lives-->
         <section id="hero">
@@ -58,24 +79,26 @@
         </section>
         <section id="bio">
             <!-- Bio Stuff-->
-
-            <h2> Biography:</h2>
+            <img src="img/IMG_0528.JPG" alt="me">
+            <figcaption> Photo of me after a 12 hour shift</figcaption>
+            <h2> Biography</h2>
             <div>
-                <p> I would like to be home and sleeping</p>
-                <p> Or would love to be eating food</p>
+                <p> Hello! My name is Carlos Cruz and I am a current student at RVCC and I'm in the Interface Design & Web Devlopment Program.</p>
+            
+                <p>Below you will find a list of my personal hobbies </p>
             </div>
 
         </section>
 
         <section id="hobbies"> 
 
-            <h2> Hobbies:</h2>
+            <h2> Hobbies</h2>
 
             <ul> 
-                <li> Sleeping </li>
-                <li> <a href="https://www.dominos.com/en/">Eating</a> </li>
-                <li> <a href="https://www.xbox.com/en-US/">Playing Videogames</a> </li>
-                <li> Hanging Out With Friends and Family</li>
+                <p>  Sleeping: Whenever I have free time and not busy, I love to take a quick nap  </p>
+                <p> <a href="https://www.dominos.com/en/">Eating:</a> I love getting the chance to sit down and have a bite to eat. Especially with Friends and Family! One of my favorite fast-food locations is Dominos.</p>
+                <p> </p> <a href="https://www.xbox.com/en-US/">Playing Videogames:</a> Just like eating, whenever I have the free time I love to sit and play games; also with friends and family. </p>
+                <p> Driving: For me driving can be a very calming thing to do. It helps get the mind of anything, and just focus on the road.</p> 
             </ul>
 
         </section>
@@ -86,55 +109,68 @@
         <hr> 
 
         <figure>
-            <img src="img/gamedice-640w.jpg"
-            alt="Cool Dice">
-            <figcaption> Dollar Store Dice</figcaption>
+            <img src="img/PS5Controller.jpeg"
+            alt="Favorite Controller">
+            <figcaption> My Favorite Controller</figcaption>
         </figure>
 
         <hr>
 
         <figure> 
-            <img src="img/xboxcontroller compressed-640w.jpg"
-            alt="Xbox Controller">
-            <figcaption> Xbox One Controller</figcaption>
+            <img src="img/Gamecollection.jpeg"
+            alt="Collection">
+            <figcaption> My Physical Videogame Collection</figcaption>
         </figure>
 
         <hr>
 
         <figure> 
-            <img src="img/controllercompressed-640w.jpg"
-            alt="PS4 Controller">
-            <figcaption> PS4 Contoller</figcaption>
+            <img src="img/Setup.JPG"
+            alt="Setup">
+            <figcaption> My Setup</figcaption>
         </figure>
 
         </section> 
 
         <article id="lit">
 
-<h2> Dr Jekyll and Mr Hyde </h2>
+<h2> Variable Fonts </h2>
 
 
     <div> 
 
-                <p>“One word,” said the lawyer. “Carew was my client, but so are you, and I want to know what I am doing. You have not been mad enough to hide this fellow?”</p>
+                <p> What is a Variable Font? A Variable font is a essentially one file to have your different font styles located. This makes it so you don't need two versions of the font bold and not bold, for example. This can allow your website to load quicker due to less font-styles needing to be loaded in. Variable Fonts can allow a website to have animations or transitioning font styles on the fly! Next will be the several differnt tags that can be used to alter your text. </p>
 
-                <p>“Utterson, I swear to God,” cried the doctor, “I swear to God I will never set eyes on him again. I bind my honour to you that I am done with him in this world. It is all at an end. And indeed he does not want my help; you do not know him as I do; he is safe, he is quite safe; mark my words, he will never more be heard of.”</p>
+                <p>Weight (which is the "wght" tag) allows the user to change how bold, or none bold they want their text to look like. The value can be changed between 300 - 900. In the example next though these values are only between 300-900. Examples  are listed below. </p>
 
-                <p>The lawyer listened gloomily; he did not like his friend’s feverish manner. “You seem pretty sure of him,” said he; “and for your sake, I hope you may be right. If it came to a trial, your name might appear.”</p>
+                <img src="img/weightexample.png" alt="weightexample">
+                
+                
 
-                <p>“I am quite sure of him,” replied Jekyll; “I have grounds for certainty that I cannot share with any one. But there is one thing on which you may advise me. I have--I have received a letter; and I am at a loss whether I should show it to the police. I should like to leave it in your hands, Utterson; you would judge wisely, I am sure; I have so great a trust in you.”</p>
 
-                <p>“You fear, I suppose, that it might lead to his detection?” asked the lawyer.</p>
+                <p> Another way the font can be manipulated is changing the width or known through the "wdth" tag, which allows you to change how wide or thing text appears. The values can be changed from 55% to 100% in the Example below.</p>
 
-                <p>“No,” said the other. “I cannot say that I care what becomes of Hyde; I am quite done with him. I was thinking of my own character, which this hateful business has rather exposed.”</p>
+                <img src="img/Widthexample.png" alt="widthexample">
+                
+                <p>Italic text is simple to add! Text can be italicized with "ital" tag. However, with italic font the only values that can be set are 0-1. 0 simply means that the text wont be italic, while 1 means it will be italic. The values can be changed from -90 to 90 degrees. Example Below of this </p>
 
-                <p>Utterson ruminated awhile; he was surprised at his friend’s selfishness, and yet relieved by it. “Well,” said he, at last, “let me see the letter.”</p>
+                <img src="img/ItalicExample.png" alt="italicexample">
 
-                <p>The letter was written in an odd, upright hand and signed “Edward Hyde”: and it signified, briefly enough, that the writer’s benefactor, Dr. Jekyll, whom he had long so unworthily repaid for a thousand generosities, need labour under no alarm for his safety, as he had means of escape on which he placed a sure dependence. The lawyer liked this letter well enough; it put a better colour on the intimacy than he had looked for; and he blamed himself for some of his past suspicions.</p>
+                <p>Slant is somewhat similar to italic, however the difference between them is slant doesn't change any of the characters at all. Slant just simply changes the angle of the text. The tag to slant your text is the "slnt" tag. An example of Slant is next. </p>
 
-                <p>“Have you the envelope?” he asked.</p>
+                <img src="img/slantexample.png" alt="slantexample">
 
-                <p>“I burned it,” replied Jekyll, “before I thought what I was about. But it bore no postmark. The note was handed in.”</p>
+                <p>Grade is similar to weight, because it can be used to change how thick the text is. The tag for Grade is "Grad" and when the tag is used, the text can appear more bolded, however the actual physical space that the text takes up does not change. An example of the code is next. </p>
+
+                <img src="img/gradeexample.png" alt="gradeexample">
+
+                <p>One thing to keep in mind is not all browsers support all font sizes and stylings. These days it's not that much of an issue, but if using older browsers keep in mind that text may not display or load as intended.</p>
+
+                <p> If looking for different fonts to add to your project, a common source is from <a href="https://fonts.google.com/">Google Fonts</a>. This is what I used to find the font for my website!</p>
+
+                <p> Overall, variable fonts allow you to change your fonts easily, without much hassle. Without variable fonts designing projects would be more tedious and most importantly of all, would be more time-consuming. It has become almost an essential for the creation of projects.</p>
+
+            
 
     </div>
 
@@ -250,7 +286,7 @@
 
 <footer> 
 
-©2023 - Carlos Cruz Jr.
+©2023 - Carlos Cruz Jr. https://github.com/RVCC-IDMX/about-me-cruz1508
 
 </footer>
 

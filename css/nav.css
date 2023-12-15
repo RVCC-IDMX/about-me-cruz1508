@@ -28,14 +28,14 @@ main {
 
 /* navbar */
 
-.navbar {
+.nav {
     background-color: #333;
     color: whitesmoke;
     display: flex;
     flex-direction: column;
     font-size: 1.5rem;
-    margin-bottom: 1rem;
-    padding: 1rem;
+    margin-bottom: .5rem;
+    
 }
 
 /* logo */
@@ -47,8 +47,8 @@ main {
 }
 
 .logo img{
-    height: 6vw;
-    width: 6vw;
+    height: 8vw;
+    width: 8vw;
 }
 
 .logo h1 {
@@ -57,7 +57,7 @@ main {
 
 /* navigation list */
 
-.navbar-links li {
+.nav-links li {
     list-style: none;
     display: block;
     padding: 0.5em 0;
@@ -97,11 +97,11 @@ such that no text wraps
 
 @media screen and (min-width: 60rem) {
     
-    .navbar {
+    .nav {
         flex-direction: row;
         justify-content: space-between;
     }
-    .navbar ul{
+    .nav ul{
         display: flex;
         justify-content: space-between;
     }

@@ -17,7 +17,7 @@ The Colors I used in my project are
 #cdc5b4 C0FAA7 whitesmoke #333
 
     I reserve all copywrite on this website
-
+______________________________________________________
 Sources Used in the creation of my website 
 
 https://www.digitalocean.com/community/tutorials/css-variable-fonts 
@@ -25,3 +25,7 @@ https://www.digitalocean.com/community/tutorials/css-variable-fonts
 https://css-tricks.com/newsletter/259-how-to-use-variable-fonts/ 
 
 https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_fonts/Variable_fonts_guide 
+
+https://www.iconpacks.net/ 
+
+https://www.youtube.com/watch?v=SIzi9z8mrTk
